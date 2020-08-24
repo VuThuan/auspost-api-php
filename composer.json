@@ -5,11 +5,11 @@
     "authors": [
         {
             "name": "Fontis",
-            "homepage": "http://www.fontis.com.au"
+            "homepage": "http://github.com/VuThuan"
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0|~7.3.0|~7.4.0",
         "php-http/client-common": "^2.0.0",
         "php-http/client-implementation": "^1.0",
         "php-http/discovery": "^1.6",
@@ -24,6 +24,12 @@
     "autoload": {
         "psr-4": {
             "Fontis\\Auspost\\": "src/"
+        }
+    },
+    "repositories": {
+        "auspost-api-php": {
+            "type": "vcs",
+            "url": "https://github.com/vuthuan/auspost-api-php.git"
         }
     }
 }
