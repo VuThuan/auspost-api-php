@@ -1,5 +1,5 @@
 {
-    "name": "vuthuan/auspost-api-php",
+    "name": "fontis/auspost-api-php",
     "description": "Auspost API Client Library for PHP",
     "license": "OSL-3.0",
     "require": {
