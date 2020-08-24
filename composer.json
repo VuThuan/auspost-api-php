@@ -19,11 +19,5 @@
         "psr-4": {
             "Fontis\\Auspost\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/vuthuan/auspost-api-php.git"
-        }
-    ]
+    }
 }
